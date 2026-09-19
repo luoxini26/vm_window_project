@@ -18,3 +18,12 @@ GitHub：[已删除敏感信息]
 Metadata  →  Read          ✅
 Contents  →  Read and write ✅
 其余所有   →  No access     ❌
+
+## 新设备推送
+
+```bash
+# 获取远程地址
+git remote -v
+# 使用token推送
+git remote set-url origin https://{{tokn}}@github.com/luoxini26/vm_window_project.git
+```
