@@ -1,0 +1,27 @@
+
+## 提示词对话
+
+1.帮我全网查找github项目上检索正常维护的「Gh0st」项目。
+
+2.GitHub上面的「Gh0st」项目，需要下载源码进行二次开发，没有现成可直接使用的程序吗？主要个人用途，仅在局域网内进行安全测试试验
+
+
+
+## GitHub 仓库提交顺序
+
+```bash
+# 1.获取仓库token鉴权
+GitHub：[已删除敏感信息]
+# 1.2github 权限选项-- 最终勾选汇总
+Metadata  →  Read          ✅
+Contents  →  Read and write ✅
+其余所有   →  No access     ❌
+
+# 新设备推送
+
+# 获取远程地址
+git remote -v
+# 使用token推送
+git remote set-url origin https://{{tokn}}@github.com/luoxini26/vm_window_project.git
+
+```
